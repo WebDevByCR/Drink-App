@@ -16,6 +16,7 @@ body {
 }
 
 .screen-1 {
+  width: 50%;
   background: #89CFF0;
   padding: 2em;
   display: flex;
@@ -30,7 +31,7 @@ body {
   margin-right: auto;
   margin-left: auto;
 }
-.screen-1 .email {
+.screen-1 .email, .name {
   background: #F0FFFF;
   box-shadow: 0 0 2em #e6e9f9;
   padding: 1em;
@@ -44,6 +45,11 @@ body {
   outline: none;
   border: none;
 }
+.screen-1 .name input {
+  outline: none;
+  border: none;
+}
+
 .screen-1 .email input::-moz-placeholder {
   color: black;
   font-size: 0.9em;

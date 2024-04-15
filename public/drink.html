@@ -12,22 +12,30 @@
 <div class="screen-1">
   <img class="logo" src="img/logo-no-background.png">
   <div class="email">
-    <label for="email">Email Address</label>
+    <label for="email">Select Drink Type</label>
     <div class="sec-2">
-      <ion-icon name="mail-outline"></ion-icon>
-      <input type="email" name="email" placeholder="Username@gmail.com"/>
+      <select name="drink" id="drink">
+        <option>Drink Type</option>
+        <option value="hot">Hot</option>
+        <option value="cold">Cold</option>
+      </select>
     </div>
   </div>
-  <div class="password">
-    <label for="password">Password</label>
+  <div class="email">
+    <label for="email">Number of Flavors</label>
     <div class="sec-2">
-      <ion-icon name="lock-closed-outline"></ion-icon>
-      <input class="pas" type="password" name="password" placeholder="············"/>
-      <!-- <ion-icon class="show-hide" name="eye-outline"></ion-icon> -->
+      <select name="drink" id="drink" placeholder="...">
+        <option>Select a Number</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
     </div>
   </div>
-  <button class="login">Login </button>
-  <div class="footer"><span>Signup</span><span>Forgot Password?</span></div>
+  <button class="login">Get Drink </button>
+  <div class="footer"></div>
 </div>
 </body>
 </html>
