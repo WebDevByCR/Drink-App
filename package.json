@@ -1,0 +1,24 @@
+{
+  "name": "drink-app",
+  "version": "1.0.0",
+  "description": "Drink generator for coffee stands.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "drink",
+    "generator",
+    "coffee",
+    "flavor",
+    "beverage",
+    "red",
+    "bull"
+  ],
+  "author": "webdevbycr",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0"
+  }
+}
